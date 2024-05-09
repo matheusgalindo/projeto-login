@@ -18,7 +18,7 @@
 
 html,
 body {
-  background-color: var(--cor-marrom);
+  background-color: var(--cor-azul);
   width: 100vw;
   height: 100vw;
 }
@@ -43,7 +43,7 @@ section#login {
   box-shadow: 0px 0px 10px #0d0d0d81;
 }
 
-section > div#imagem {
+section#login > div#imagem {
   display: block;
   background: var(--cor-azul) url(../images/pexels-damir-16335483.jpg) no-repeat;
   background-size: cover;
@@ -51,7 +51,8 @@ section > div#imagem {
   height: 200px;
 }
 
-section > div#formulario {
+section#login > div#formulario {
   display: block;
   padding: 10px;
+  color: var(--cor-marrom-escuro);
 }
