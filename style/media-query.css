@@ -1,6 +1,24 @@
 @charset "UTF-8";
 
+:root {
+  --cor-azul: #82c0d9;
+  --cor-azul-claro: #cef2ef;
+  --cor-marrom: #592a25;
+  --cor-marrom-claro: #8c655d;
+  --cor-marrom-escuro: #0d0d0d;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  main {
+    background-image: linear-gradient(
+      to top,
+      var(--cor-azul-claro),
+      var(--cor-azul),
+      var(--cor-marrom-claro),
+      var(--cor-marrom)
+    );
+  }
+
   section#login {
     width: 80vw;
   }
@@ -19,6 +37,16 @@
 }
 
 @media screen and (min-width: 992px) {
+  main {
+    background-image: linear-gradient(
+      to top,
+      var(--cor-azul-claro),
+      var(--cor-azul),
+      var(--cor-marrom-claro),
+      var(--cor-marrom)
+    );
+  }
+
   section#login {
     width: 950px;
   }
