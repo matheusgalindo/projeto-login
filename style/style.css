@@ -59,3 +59,14 @@ section#login > div#formulario {
   display: block;
   padding: 10px;
 }
+
+section#login > div#formulario > h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+section#login > div#formulario > p {
+  font-size: 0.8em;
+  text-align: justify;
+}
