@@ -39,7 +39,7 @@ section#login {
 
   background-color: white;
   width: 250px;
-  height: 540px;
+  height: 550px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #0d0d0d81;
 
@@ -77,6 +77,30 @@ div.campo {
   border-radius: 15px;
   height: 50px;
   margin: 15px 0px;
+}
+
+div.campo > input:focus-within {
+  background-color: white;
+}
+
+div.campo > span {
+  font-size: 2.5em;
+  color: white;
+  /* background-color: var(--cor-marrom-escuro); */
+  width: 50px;
+  padding: 4px;
+}
+
+div.campo > input {
+  background-color: var(--cor-azul-claro);
+  font-size: 0.9em;
+  width: calc(100% - 56px);
+  height: 97%;
+  transform: translateY(-13px);
+  border: 2px solid var(--cor-marrom-claro);
+  border-radius: 15px;
+  padding: 5px;
+  color: var(--cor-marrom);
 }
 
 form > input[type="submit"] {
